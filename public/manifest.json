@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SimBillSplit",
+  "name": "Simple Bill Splitter",
+  "description": "A simple app that helps you split your bills between friends and peers while also leveraging the power of progressive web apps to give you some extra benefits along the way",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,8 +9,12 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "scope": ".",
+  "dir": "ltr",
+  "lang": "en-US",
+  "orientation": "any"
 }
