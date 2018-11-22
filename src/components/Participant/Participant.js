@@ -6,7 +6,6 @@ import Ink from 'react-ink';
 // Internal Libraries
 import './Participant.css';
 import {checkNum} from '../../global/global';
-import '../../global/global.css';
 import Button from '../Button/Button';
 
 class Participant extends Component {
@@ -46,10 +45,12 @@ class Participant extends Component {
 			participants[name] = {name, expenditure: parseFloat(expenditure)};
 			this.setState({
 				name: '',
-				expenditure: 0,
+				expenditure: '0',
 				btnText: 'Add'
 			});
 			this.props.setParticipants(participants);
+		} else {
+			alert('name and expenditure cannot be empty');
 		}
 	}
 
@@ -59,7 +60,7 @@ class Participant extends Component {
 		delete participants[name];
 		this.setState({
 			name: '',
-			expenditure: 0,
+			expenditure: '0',
 			btnText: 'Add'
 		});
 		this.props.setParticipants(participants);

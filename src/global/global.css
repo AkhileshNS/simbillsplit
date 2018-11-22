@@ -12,7 +12,7 @@
 
 .box > .title {
     margin-top: 12px;
-    margin-bottom: 2px;
+    margin-bottom: -12px;
 }
 
 .box > .title > p {
@@ -26,10 +26,6 @@
     font-size: 1.2em;
     color: var(--gray);
     margin-top: 4px;
-}
-
-.box > .input {
-    margin-top: -12px;
 }
 
 .box > .input > input {
@@ -80,6 +76,32 @@
 }
 
 .boxes > div > p {
+    padding: 0;
+    margin: 0;
+}
+
+.greenboxes {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+.greenboxes > div {
+    position: relative;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: var(--white);
+    color: var(--green);
+    border: 1.5px solid var(--green);
+    font-size: 1.6em;
+    font-weight: bold; 
+    cursor: pointer;
+    margin: 2px;
+}
+
+.greenboxes > div > p {
     padding: 0;
     margin: 0;
 }

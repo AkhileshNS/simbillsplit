@@ -1,6 +1,6 @@
 {
-  "short_name": "SimBillSplit",
-  "name": "Simple Bill Splitter",
+  "short_name": "PWA Bill Splitter",
+  "name": "Simple Progressive Web App Bill Splitter",
   "description": "A simple app that helps you split your bills between friends and peers while also leveraging the power of progressive web apps to give you some extra benefits along the way",
   "icons": [
     {
