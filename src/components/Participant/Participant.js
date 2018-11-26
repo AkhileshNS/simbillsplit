@@ -14,8 +14,8 @@ class Participant extends Component {
 		super(props);
 		
 		this.state = {
-			name: 'Akhilesh',
-			expenditure: 300,
+			name: '',
+			expenditure: 0,
 			btnText: 'Add'
 		};
 	}
